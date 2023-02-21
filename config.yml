@@ -1,0 +1,19 @@
+enable_cache: True
+run_name: GB_Pipeline_Run_{time}
+steps:
+  preprocess_step:
+    parameters:
+      random_seed: 123
+  feature_engineering:
+    parameters:
+      features: ['releaseyear', 'danceability', 'energy', 'key', 'loudness',
+       'speechiness', 'acousticness', 'instrumentalness', 'liveness',
+       'valence', 'tempo', 'Electronic_onehot', 'Experimental_onehot',
+       'Folk/Country_onehot', 'Global_onehot', 'Jazz_onehot', 'Metal_onehot',
+       'Other_onehot', 'Pop/R&B_onehot', 'Rap_onehot', 'Rock_onehot']
+  train_step:
+    parameters:
+        model_parameters:
+          random_state: 123
+          n_estimators: 300
+          learning_rate: 0.05

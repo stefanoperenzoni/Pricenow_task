@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stefanoperenzoni/Desktop/Pricenow/Problem%20Set%202.0/model_pipeline/mlruns/0/1efe9206d1ba46b5a7b08fddd474836e/artifacts
+end_time: 1676975660457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1efe9206d1ba46b5a7b08fddd474836e
+run_name: monumental-stork-221
+run_uuid: 1efe9206d1ba46b5a7b08fddd474836e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676975659617
+status: 3
+tags: []
+user_id: stefanoperenzoni
